@@ -1,0 +1,87 @@
+body{
+	background: #E6DADA;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #274046, #E6DADA); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#container{
+	background:#fcdf03;
+	width: 400px;
+	height: auto;
+	margin:auto;
+	margin-top: 150px;
+	border:3px solid black;
+	font-family: 'Source Code Pro', monospace;
+}
+.strike{
+	text-decoration:line-through;
+	color:gray;
+}
+
+h2{
+	text-align: center;
+	background: #03cefc;
+	border: 3px solid black;
+}
+
+
+li{
+	font-size: 25px;
+	background: #fcdf03;
+}
+
+li:nth-of-type(even){
+	
+	background:#fcce03 ;
+
+}
+
+#input{
+	padding-left: 100px;
+	height: 20px;
+	font-size: 24px;
+	width: 90%;
+	padding: 13px 20px 13px 20px;
+	background: #03cefc;
+	font-family: 'Source Code Pro', monospace;
+	
+}
+
+ul{
+	list-style: none;
+}
+
+
+
+#plus{
+	color:white;
+	p
+
+}
+
+.show{
+	display: none;
+}
+
+.cross{
+	
+	height: 40px;
+	color:white;
+	display: inline-block;
+	margin-left: -30px;
+	visibility: hidden;
+	transition: 0.3s linear;
+
+}
+
+li:hover span{
+	width: 40px;
+	visibility: unset;
+
+}
+
+i{
+	color:black;
+}
+
+
